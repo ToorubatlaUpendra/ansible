@@ -1,0 +1,9 @@
+- name: check variables
+  hosts: localhost #in which i am executing my anisble
+  vars:
+    Course: "Devops"
+    Duration: "120"
+  tasks:
+    - name: check variables
+      ansible.builtin.debug:
+        msg: "I am learning {{Course}},{{Duration}} "

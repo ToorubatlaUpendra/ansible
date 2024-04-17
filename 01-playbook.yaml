@@ -1,4 +1,4 @@
-- name: ping playboo
+- name: ping playbook
   hosts: localhost
   tasks:
     - name: ping the server
