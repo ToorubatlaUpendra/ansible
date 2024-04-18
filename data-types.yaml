@@ -1,0 +1,29 @@
+- name: check variables
+  hosts: localhost
+  vars:
+    Name: Ravi Kumar
+    Skills: #list type
+      - java
+      - python
+      - rebbon
+    Experience: # Map type
+      Devops: 7
+      Aws: 6
+      python: 7
+    Experienced: true
+  tasks:
+    - name: print key value pair
+      ansible.builtin.debug:
+        msg: "name: {{NAME}}"
+
+    - name: print list
+      ansible.builtin.debug:
+        msg: "Skills: {{Skills}}"
+
+    - name: print map
+      ansible.builtin.debug:
+        msg: "Experience: {{Experience}}"
+
+    - name: print boolean
+      ansible.builtin.debug:
+        msg: "is he Trainer: {{Trainer}}"
