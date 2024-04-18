@@ -1,6 +1,6 @@
 #Variables from task level
 - name: variable from task level
-  hosts: localhost
+  hosts: local
   # vars:
   #   course: "DevOps"
   #   duration: "120"
