@@ -4,6 +4,10 @@
 [web]
 3.83.39.220
 
+[localhost]
+course: "Devops"
+Duration: "120"
+
 [cart]
 3.32.16.17
 3.124.126.1
