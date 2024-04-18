@@ -5,7 +5,10 @@
 3.83.39.220
 
 [localhost]
-course: "Devops"
+localhost
+
+[localhost:vars]
+course: "DevOps"
 Duration: "120"
 
 [cart]
