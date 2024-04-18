@@ -5,7 +5,6 @@
       ansible.builtin.command: id roboshop
       register: user #user is the vriable
       ignore_users: true #this will igore the erros in the ansible
-     - name: print variable value
-       ansible.builtin.debug:
+    - name: print variable value
+      ansible.builtin.debug:
         msg: "User output is: {{user}}"
-
