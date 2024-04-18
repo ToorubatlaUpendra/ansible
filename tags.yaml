@@ -8,3 +8,8 @@
         msg: "Hello DevOps"
       tags:
         - devops
+    - name: print message
+      ansible.builtin.debug:
+        msg: "Hello AWS"
+      tags:
+        - aws
