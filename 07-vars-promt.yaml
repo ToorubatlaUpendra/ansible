@@ -1,0 +1,13 @@
+- name: declaring the vriables
+  hosts: localhost
+  vars_prompt:
+    - name: USERNAME
+      prompt: Please enter the user name
+      private: false
+    - name: Password
+      prompt: please enter your password
+      private: true
+      tasks:
+        - name: giving variables from pompt
+          ansible.builtin.debug:
+          msg: "hell0 {{USERNAME}} {Password}"
