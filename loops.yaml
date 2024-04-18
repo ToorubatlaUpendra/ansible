@@ -1,0 +1,6 @@
+- name: check the loops
+  hosts: localhost
+  tasks:
+    - name: check roboshop user exsists or not
+      ansible.builtin.command: id roboshop
+      register: user #user is the vriable
