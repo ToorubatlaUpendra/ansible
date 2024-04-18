@@ -14,4 +14,4 @@
     - name: creating user
       ansible.builtin.user:
         name: roboshop
-      when: {{user.rc}} !=0 ##checks the condition user exsists or not
+      when: user.rc !=0 ##checks the condition user exsists or not
