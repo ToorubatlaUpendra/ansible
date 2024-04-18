@@ -26,4 +26,4 @@
 
     - name: print boolean
       ansible.builtin.debug:
-        msg: "is he Trainer: {{Trainer}}"
+        msg: "is he Trainer: {{Experienced}}"
