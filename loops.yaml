@@ -1,6 +1,7 @@
 - name: check the loops
   hosts: localhost
   become: yes
+  become_password: "{{ 1240@Uppu }}"
   tasks:
     - name: check roboshop user exsists or not
       ansible.builtin.command: id roboshop
