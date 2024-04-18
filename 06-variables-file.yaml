@@ -1,0 +1,12 @@
+#Variables from task level
+- name: variable from task level
+  hosts: localhost
+  var_files:
+    - vaiables.yaml
+  tasks:
+    - name: check variables
+      # vars:
+      #   # course: "DevOps from task"
+      #   # duration: "120 task"
+      ansible.builtin.debug:
+        msg: "Hi, I am learning {{course}}, {{duration}}"
