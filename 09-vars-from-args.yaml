@@ -4,3 +4,5 @@
     - name: check variables
       ansible.builtin.debug:
         msg: "Hello {{name}} {{Password}}"
+# ansible-playbook -i inventory -e ansible_user=osboxes -e ansible_password=1240@Uppu -e "name=siva" -e "Password=ramesh" 09-vars-from-args.yaml command tu run
+
