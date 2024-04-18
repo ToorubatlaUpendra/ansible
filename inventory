@@ -4,10 +4,10 @@
 [web]
 3.83.39.220
 
-[local]
+[localserver]
 localhost
 
-[local:vars]
+[localserver:vars]
 course: "DevOps"
 Duration: "120"
 
