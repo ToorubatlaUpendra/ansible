@@ -1,4 +1,4 @@
-- name: declaring the vriables
+- name: variable from prompt level
   hosts: localhost
   vars_prompt:
     - name: USERNAME
@@ -7,7 +7,7 @@
     - name: Password
       prompt: please enter your password
       private: true
-      tasks:
-        - name: giving variables from pompt
-          ansible.builtin.debug:
-          msg: "hell0 {{USERNAME}} {Password}"
+  tasks:
+    - name: giving variables from pompt
+      ansible.builtin.debug:
+      msg: "hell0 {{USERNAME}} {Password}"
