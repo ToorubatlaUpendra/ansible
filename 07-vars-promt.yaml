@@ -10,4 +10,4 @@
   tasks:
     - name: print and check the values
       ansible.builtin.debug:
-      msg: "hell0 {{USERNAME}} {Password}"
+      msg: "hell0 {{USERNAME}} {{Password}}"
