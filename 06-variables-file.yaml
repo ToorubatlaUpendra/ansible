@@ -9,4 +9,4 @@
       #   # course: "DevOps from task"
       #   # duration: "120 task"
       ansible.builtin.debug:
-        msg: "Hi, I am learning {{course}}, {{duration}}"
+        msg: "Hi, I am learning {{course}}, {{Duration}}"
