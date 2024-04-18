@@ -4,12 +4,12 @@
 [web]
 3.83.39.220
 
-[local]
+[localhost]
 localhost
 
-[local:vars]
-course: "DevOps"
-Duration: "120"
+[localhost:vars]
+course="DevOps"
+Duration="120"
 
 [cart]
 3.32.16.17
